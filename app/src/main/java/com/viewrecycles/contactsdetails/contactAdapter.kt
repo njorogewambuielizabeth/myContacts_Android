@@ -3,6 +3,7 @@ package com.viewrecycles.contactsdetails
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import com.viewrecycles.contactsdetails.databinding.ContactlistBinding
 
 class contactAdapter( var contactlist: List<ContactData>): RecyclerView.Adapter<ContactViewHolder>()  {
@@ -13,9 +14,17 @@ class contactAdapter( var contactlist: List<ContactData>): RecyclerView.Adapter<
 
     override fun onBindViewHolder(holder: ContactViewHolder, position: Int) {
         var phone =contactlist[position]
-        holder.binding.tvName.text=phone.name
-        holder.binding.tvEmail.text=phone.email
-        holder.binding.tvPhoneNumber.text=phone.phoneNumber
+        var binding=holder.binding
+        binding.tvName.text=phone.name
+        binding.tvEmail.text=phone.email
+        binding.tvPhoneNumber.text=phone.phoneNumber
+        Picasso
+            .get()
+            .load(phone.avatar)
+            .resize(60,60)
+
+            .into(binding.ivAvatar)
+
     }
 
     override fun getItemCount(): Int {

@@ -3,409 +3,66 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="75dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="648dp"
-        android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mycontactavatar" />
+    android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/tvEmail5"
+        android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="504dp"
-        android:layout_marginEnd="128dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
         android:text="essynyoks@gmail.com"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
-
-    <TextView
-        android:id="@+id/tvEmail6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="608dp"
-        android:layout_marginEnd="132dp"
-        android:text="nungarimary@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
-
-    <TextView
-        android:id="@+id/tvPhoneNumber5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="508dp"
-        android:layout_marginEnd="172dp"
-        android:text="+254746413469"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
-
-    <TextView
-        android:id="@+id/tvPhoneNumber6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="608dp"
-        android:layout_marginEnd="168dp"
-        android:text="+2540112660635"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
-
-    <TextView
-        android:id="@+id/tvName5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="508dp"
-        android:text="Esther Nyokabi"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
-
-    <TextView
-        android:id="@+id/tvName6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="612dp"
-        android:text="Mary Nungari"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="484dp"
-        android:layout_marginEnd="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvEmail"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvEmail"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="580dp"
-        android:layout_marginEnd="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvEmail"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvEmail"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="488dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
-        app:srcCompat="@drawable/ic_baseline_call_24" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="584dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
-        app:srcCompat="@drawable/ic_baseline_call_24" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="75dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="428dp"
-        android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mycontactavatar" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="75dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="544dp"
-        android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mycontactavatar" />
-
-    <TextView
-        android:id="@+id/tvName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="260dp"
-        android:text="MaryAnne Njoki"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
-
-    <TextView
-        android:id="@+id/tvName4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="380dp"
-        android:text="Vallary Buraje"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
-
-    <TextView
-        android:id="@+id/tvEmail2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="148dp"
-        android:text="viinjenga@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
-
-    <TextView
-        android:id="@+id/tvEmail3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="136dp"
-        android:text="mariekikie@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
-
-    <TextView
-        android:id="@+id/tvEmail4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="384dp"
-        android:layout_marginEnd="128dp"
-        android:text="vallaryburaje@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="75dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mycontactavatar" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="75dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="296dp"
-        android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mycontactavatar" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="75dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mycontactavatar" />
-
-    <TextView
-        android:id="@+id/tvContacts"
-        android:layout_width="106dp"
-        android:layout_height="18dp"
-        android:layout_marginTop="16dp"
-        android:text="My  Contacts"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="16dp"
-        android:text="Sparks Njoroge"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
-
-    <TextView
-        android:id="@+id/tvName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="136dp"
-        android:text="Virginia Njenga"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
 
     <TextView
         android:id="@+id/tvPhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="172dp"
-        android:text="+254742325744"
+        android:layout_marginEnd="48dp"
+        android:text="+254746413469"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
     <TextView
-        android:id="@+id/tvPhoneNumber2"
+        android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
-        android:layout_marginEnd="172dp"
-        android:text="+254721757535"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="80dp"
+        android:text="Esther Nyokabi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
-
-    <TextView
-        android:id="@+id/tvPhoneNumber3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
-        android:layout_marginEnd="172dp"
-        android:text="+254705080519"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
-
-    <TextView
-        android:id="@+id/tvPhoneNumber4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
-        android:layout_marginEnd="184dp"
-        android:text="+254756904329"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
-
-    <TextView
-        android:id="@+id/tvEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="88dp"
-        android:text="sparksnjorogte54@gmail.com"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
-        app:srcCompat="@drawable/ic_baseline_call_24" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="116dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
-        app:srcCompat="@drawable/ic_baseline_call_24" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="364dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
-        app:srcCompat="@drawable/ic_baseline_call_24" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="240dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
-        app:srcCompat="@drawable/ic_baseline_call_24" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginEnd="18dp"
+        android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toStartOf="@+id/tvEmail"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/tvEmail"
         app:srcCompat="@drawable/ic_baseline_email_24" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/ivCall"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvEmail"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvEmail"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvPhoneNumber"
+        app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber"
+        app:srcCompat="@drawable/ic_baseline_call_24" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="236dp"
-        android:layout_marginEnd="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvEmail"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvEmail"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
+        android:id="@+id/ivAvatar"
+        android:layout_width="102dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="93dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mycontactavatar" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="364dp"
-        android:layout_marginEnd="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvEmail"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/tvEmail"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>
